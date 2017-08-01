@@ -1,16 +1,14 @@
-# Libraries
-*.lvlibp
-*.llb
+# folders
+calibration_data/Archive/
+calibration_data/Calibrated_Reference_Cells-April_2017/
+docs/Archive/
+docs/instrument_manuals/
+drivers/
+notes/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# files
+docs/mounting_step2.jpg
+docs/mounting_step3a.jpg
+docs/mounting_step3b.jpg
+docs/mounting_step4.jpg
 
-# Executables
-*.exe
-
-# Metadata
-*.aliases
-*.lvlps

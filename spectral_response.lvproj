@@ -42,6 +42,7 @@
 			<Item Name="state_selector.ctl" Type="VI" URL="../typedefs/state_selector.ctl"/>
 		</Item>
 		<Item Name="spectral_response_main.vi" Type="VI" URL="../spectral_response_main.vi"/>
+		<Item Name="convert_pixel_to_switch.vi" Type="VI" URL="../subVIs/convert_pixel_to_switch.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niSwitch Topologies.ctl" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.LLB/niSwitch Topologies.ctl"/>

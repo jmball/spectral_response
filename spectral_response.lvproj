@@ -16,6 +16,7 @@
 			<Item Name="app-dir_to_server-dir.vi" Type="VI" URL="../subVIs/app-dir_to_server-dir.vi"/>
 			<Item Name="backup_data_on_network.vi" Type="VI" URL="../subVIs/backup_data_on_network.vi"/>
 			<Item Name="calculate_eqe.vi" Type="VI" URL="../subVIs/calculate_eqe.vi"/>
+			<Item Name="convert_pixel_to_switch.vi" Type="VI" URL="../subVIs/convert_pixel_to_switch.vi"/>
 			<Item Name="copy_to_network_and_server.vi" Type="VI" URL="../subVIs/copy_to_network_and_server.vi"/>
 			<Item Name="create_data_file.vi" Type="VI" URL="../subVIs/create_data_file.vi"/>
 			<Item Name="create_data_folders.vi" Type="VI" URL="../subVIs/create_data_folders.vi"/>
@@ -42,7 +43,6 @@
 			<Item Name="state_selector.ctl" Type="VI" URL="../typedefs/state_selector.ctl"/>
 		</Item>
 		<Item Name="spectral_response_main.vi" Type="VI" URL="../spectral_response_main.vi"/>
-		<Item Name="convert_pixel_to_switch.vi" Type="VI" URL="../subVIs/convert_pixel_to_switch.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niSwitch Topologies.ctl" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.LLB/niSwitch Topologies.ctl"/>

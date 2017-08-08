@@ -141,32 +141,33 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="spectral_response_5.0" Type="EXE">
+			<Item Name="spectral_response_5.0.0" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{8BBC2C76-F340-44AE-ABA5-9804DFF0B8C3}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{F0E98436-8360-4417-8A18-40728F5D61FB}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{14FC4BA2-3DD1-4E7B-9BCF-CEEF119ADD66}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">spectral_response_5.0</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">spectral_response_5.0.0</Property>
 				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/spectral_response_5.0</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/spectral_response_5.0.0</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5D007FB4-4D6D-49F1-95D2-70111B07B97E}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">5</Property>
-				<Property Name="Destination[0].destName" Type="Str">spectral_response_5.0.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/spectral_response_5.0/spectral_response_5.0.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">spectral_response_5.0.0.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/spectral_response_5.0.0/spectral_response_5.0.0.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/spectral_response_5.0/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/spectral_response_5.0.0/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6E957C6D-9A1E-4EF1-88C0-8C8D821B19DF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{15DD5182-01B0-4239-99A1-D523E4789597}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/spectral_response_main.vi</Property>
@@ -174,12 +175,12 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Oxford University Department Of Physics</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">spectral_response_5.0</Property>
-				<Property Name="TgtF_internalName" Type="Str">spectral_response_5.0</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">spectral_response_5.0.0</Property>
+				<Property Name="TgtF_internalName" Type="Str">spectral_response_5.0.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 Oxford University Department Of Physics</Property>
-				<Property Name="TgtF_productName" Type="Str">spectral_response_5.0</Property>
+				<Property Name="TgtF_productName" Type="Str">spectral_response_5.0.0</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{F9F07242-111D-4189-823A-60A939708C45}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">spectral_response_5.0.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">spectral_response_5.0.0.exe</Property>
 			</Item>
 		</Item>
 	</Item>

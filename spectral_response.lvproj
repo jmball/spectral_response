@@ -50,7 +50,15 @@
 				<Item Name="niSwitch Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.LLB/niSwitch Self-Test.vi"/>
 				<Item Name="niSwitch IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.LLB/niSwitch IVI Error Converter.vi"/>
 				<Item Name="niSwitch Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.LLB/niSwitch Reset.vi"/>
-				<Item Name="Stanford Research 830.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Stanford Research 830/Stanford Research 830.lvlib"/>
+				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Stanford Research 830/Public/Initialize.vi"/>
+				<Item Name="Configure Input Signal.vi" Type="VI" URL="/&lt;instrlib&gt;/Stanford Research 830/Public/Configure/Configure Input Signal.vi"/>
+				<Item Name="Configure Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/Stanford Research 830/Public/Configure/Configure Reference.vi"/>
+				<Item Name="Configure Sensitivity and Reserve.vi" Type="VI" URL="/&lt;instrlib&gt;/Stanford Research 830/Public/Configure/Configure Sensitivity and Reserve.vi"/>
+				<Item Name="Configure Filter.vi" Type="VI" URL="/&lt;instrlib&gt;/Stanford Research 830/Public/Configure/Configure Filter.vi"/>
+				<Item Name="Configure Channel Display.vi" Type="VI" URL="/&lt;instrlib&gt;/Stanford Research 830/Public/Configure/Configure Channel Display.vi"/>
+				<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Stanford Research 830/Public/Utility/Error Query.vi"/>
+				<Item Name="Read.vi" Type="VI" URL="/&lt;instrlib&gt;/Stanford Research 830/Public/Data/Read.vi"/>
+				<Item Name="Read (1 Parameter).vi" Type="VI" URL="/&lt;instrlib&gt;/Stanford Research 830/Public/Data/Read (1 Parameter).vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -126,17 +134,13 @@
 				<Item Name="SpectOpen.vi" Type="VI" URL="/&lt;userlib&gt;/SITK/SITKSpect.llb/SpectOpen.vi"/>
 				<Item Name="SpectSetFilter.vi" Type="VI" URL="/&lt;userlib&gt;/SITK/SITKSpect.llb/SpectSetFilter.vi"/>
 				<Item Name="SpectSetWavelength.vi" Type="VI" URL="/&lt;userlib&gt;/SITK/SITKSpect.llb/SpectSetWavelength.vi"/>
-				<Item Name="MergeErrorOut.vi" Type="VI" URL="/&lt;userlib&gt;/SITK/SITKGeneral.llb/MergeErrorOut.vi"/>
 				<Item Name="InitToolkit.vi" Type="VI" URL="/&lt;userlib&gt;/SITK/SITKGeneral.llb/InitToolkit.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="LabViewLayer.dll" Type="Document" URL="LabViewLayer.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="niswitch_32.dll" Type="Document" URL="niswitch_32.dll">
+			<Item Name="niswitch_64.dll" Type="Document" URL="niswitch_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>

@@ -16,12 +16,15 @@
 			<Item Name="app-dir_to_server-dir.vi" Type="VI" URL="../subVIs/app-dir_to_server-dir.vi"/>
 			<Item Name="backup_data_on_network.vi" Type="VI" URL="../subVIs/backup_data_on_network.vi"/>
 			<Item Name="calculate_eqe.vi" Type="VI" URL="../subVIs/calculate_eqe.vi"/>
+			<Item Name="calculate_jsc.vi" Type="VI" URL="../subVIs/calculate_jsc.vi"/>
+			<Item Name="calculate_white-bias_jsc.vi" Type="VI" URL="../subVIs/calculate_white-bias_jsc.vi"/>
 			<Item Name="convert_pixel_to_switch.vi" Type="VI" URL="../subVIs/convert_pixel_to_switch.vi"/>
 			<Item Name="copy_to_network_and_server.vi" Type="VI" URL="../subVIs/copy_to_network_and_server.vi"/>
 			<Item Name="create_data_file.vi" Type="VI" URL="../subVIs/create_data_file.vi"/>
 			<Item Name="create_data_folders.vi" Type="VI" URL="../subVIs/create_data_folders.vi"/>
 			<Item Name="create_save_log_file.vi" Type="VI" URL="../subVIs/create_save_log_file.vi"/>
 			<Item Name="create_wavelength_array.vi" Type="VI" URL="../subVIs/create_wavelength_array.vi"/>
+			<Item Name="determine_gain.vi" Type="VI" URL="../subVIs/determine_gain.vi"/>
 			<Item Name="ExSubSpecOpen.vi" Type="VI" URL="../subVIs/ExSubSpecOpen.vi"/>
 			<Item Name="ExSubWaitSpec.vi" Type="VI" URL="../subVIs/ExSubWaitSpec.vi"/>
 			<Item Name="get_pixel_number.vi" Type="VI" URL="../subVIs/get_pixel_number.vi"/>
@@ -42,7 +45,6 @@
 			<Item Name="state_selector.ctl" Type="VI" URL="../typedefs/state_selector.ctl"/>
 		</Item>
 		<Item Name="spectral_response_main.vi" Type="VI" URL="../spectral_response_main.vi"/>
-		<Item Name="determine_gain.vi" Type="VI" URL="../subVIs/determine_gain.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niSwitch Topologies.ctl" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.LLB/niSwitch Topologies.ctl"/>

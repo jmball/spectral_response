@@ -2,6 +2,7 @@
 calibration_data/
 calibration_data/Archive/
 calibration_data/Calibrated_Reference_Cells-April_2017/
+docs/
 docs/Archive/
 docs/instrument_manuals/
 drivers/
@@ -9,6 +10,7 @@ notes/
 misc/
 
 # files
+spectral_response_main - Shortcut.lnk
 docs/mounting_step2.jpg
 docs/mounting_step3a.jpg
 docs/mounting_step3b.jpg

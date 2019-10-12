@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="18008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -47,11 +47,8 @@
 		<Item Name="spectral_response_main.vi" Type="VI" URL="../spectral_response_main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="niSwitch Topologies.ctl" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.LLB/niSwitch Topologies.ctl"/>
-				<Item Name="niSwitch Initialize With Topology.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.LLB/niSwitch Initialize With Topology.vi"/>
-				<Item Name="niSwitch Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.LLB/niSwitch Self-Test.vi"/>
-				<Item Name="niSwitch IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.LLB/niSwitch IVI Error Converter.vi"/>
-				<Item Name="niSwitch Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.LLB/niSwitch Reset.vi"/>
+				<Item Name="niSwitch Topologies.ctl" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch Topologies.ctl"/>
+				<Item Name="niSwitch Initialize With Topology.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch Initialize With Topology.vi"/>
 				<Item Name="Stanford Research 830.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Stanford Research 830/Stanford Research 830.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
@@ -119,28 +116,31 @@
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-			</Item>
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="SpectGetStatus.vi" Type="VI" URL="/&lt;userlib&gt;/SITK/SITKSpect.llb/SpectGetStatus.vi"/>
-				<Item Name="SpectSetGratingSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/SITK/SITKSpect.llb/SpectSetGratingSpeed.vi"/>
-				<Item Name="SpectSetGrating.vi" Type="VI" URL="/&lt;userlib&gt;/SITK/SITKSpect.llb/SpectSetGrating.vi"/>
-				<Item Name="SpectSetup.vi" Type="VI" URL="/&lt;userlib&gt;/SITK/SITKSpect.llb/SpectSetup.vi"/>
-				<Item Name="SpectOpen.vi" Type="VI" URL="/&lt;userlib&gt;/SITK/SITKSpect.llb/SpectOpen.vi"/>
-				<Item Name="SpectSetFilter.vi" Type="VI" URL="/&lt;userlib&gt;/SITK/SITKSpect.llb/SpectSetFilter.vi"/>
-				<Item Name="SpectSetWavelength.vi" Type="VI" URL="/&lt;userlib&gt;/SITK/SITKSpect.llb/SpectSetWavelength.vi"/>
-				<Item Name="InitToolkit.vi" Type="VI" URL="/&lt;userlib&gt;/SITK/SITKGeneral.llb/InitToolkit.vi"/>
-				<Item Name="MergeErrorOut.vi" Type="VI" URL="/&lt;userlib&gt;/SITK/SITKGeneral.llb/MergeErrorOut.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="niswitch_64.dll" Type="Document" URL="niswitch_64.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="SpectGetStatus.vi" Type="VI" URL="../drivers/STIK/SITKFilterWheel.llb/SpectGetStatus.vi"/>
+			<Item Name="SpectSetGratingSpeed.vi" Type="VI" URL="../drivers/STIK/SITKSpect.llb/SpectSetGratingSpeed.vi"/>
+			<Item Name="SpectSetGrating.vi" Type="VI" URL="../drivers/STIK/SITKSpect.llb/SpectSetGrating.vi"/>
+			<Item Name="SpectSetup.vi" Type="VI" URL="../drivers/STIK/SITKSpect.llb/SpectSetup.vi"/>
+			<Item Name="SpectOpen.vi" Type="VI" URL="../drivers/STIK/SITKSpect.llb/SpectOpen.vi"/>
+			<Item Name="SpectSetFilter.vi" Type="VI" URL="../drivers/STIK/SITKSpect.llb/SpectSetFilter.vi"/>
+			<Item Name="SpectSetWavelength.vi" Type="VI" URL="../drivers/STIK/SITKSpect.llb/SpectSetWavelength.vi"/>
+			<Item Name="MergeErrorOut.vi" Type="VI" URL="../drivers/STIK/SITKGeneral.llb/MergeErrorOut.vi"/>
 			<Item Name="LabViewLayer.dll" Type="Document" URL="LabViewLayer.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niswitch_32.dll" Type="Document" URL="niswitch_32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
+			<Item Name="pcb_query_command_tcp.vi" Type="VI" URL="../subVIs/pcb_query_command_tcp.vi"/>
+			<Item Name="pcb_select_pixel_tcp.vi" Type="VI" URL="../subVIs/pcb_select_pixel_tcp.vi"/>
+			<Item Name="format_python_cmd.vi" Type="VI" URL="../subVIs/format_python_cmd.vi"/>
+			<Item Name="monochromator_cmd.vi" Type="VI" URL="../subVIs/monochromator_cmd.vi"/>
+			<Item Name="set_wavelength_python.vi" Type="VI" URL="../subVIs/set_wavelength_python.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="spectral_response_5.0.0" Type="EXE">
@@ -150,7 +150,6 @@
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{14FC4BA2-3DD1-4E7B-9BCF-CEEF119ADD66}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">spectral_response_5.0.0</Property>
-				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>

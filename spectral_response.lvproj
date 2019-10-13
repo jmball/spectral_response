@@ -30,6 +30,7 @@
 			<Item Name="get_pixel_number.vi" Type="VI" URL="../subVIs/get_pixel_number.vi"/>
 			<Item Name="init_instruments.vi" Type="VI" URL="../subVIs/init_instruments.vi"/>
 			<Item Name="measure_current.vi" Type="VI" URL="../subVIs/measure_current.vi"/>
+			<Item Name="measure_ratio_signal.vi" Type="VI" URL="../subVIs/measure_ratio_signal.vi"/>
 			<Item Name="save_data.vi" Type="VI" URL="../subVIs/save_data.vi"/>
 			<Item Name="set_switch.vi" Type="VI" URL="../subVIs/set_switch.vi"/>
 			<Item Name="set_wavelength.vi" Type="VI" URL="../subVIs/set_wavelength.vi"/>

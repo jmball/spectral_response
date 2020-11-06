@@ -142,6 +142,7 @@
 			<Item Name="format_python_cmd.vi" Type="VI" URL="../subVIs/format_python_cmd.vi"/>
 			<Item Name="monochromator_cmd.vi" Type="VI" URL="../subVIs/monochromator_cmd.vi"/>
 			<Item Name="set_wavelength_python.vi" Type="VI" URL="../subVIs/set_wavelength_python.vi"/>
+			<Item Name="pcb_open_tcp_connection.vi" Type="VI" URL="../subVIs/pcb_open_tcp_connection.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="spectral_response_5.0.0" Type="EXE">

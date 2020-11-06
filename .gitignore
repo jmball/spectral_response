@@ -8,6 +8,7 @@ docs/instrument_manuals/
 drivers/
 notes/
 misc/
+testing/
 
 # files
 spectral_response_main - Shortcut.lnk
@@ -18,4 +19,9 @@ docs/mounting_step4.jpg
 builds/spectral_response_5.0.0/LabViewLayer.dll
 builds/spectral_response_5.0.0/SIToolKit.dll
 builds/spectral_response_5.0.0/SimpleDisplay.dll
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 

@@ -146,3 +146,5 @@ if __name__ == "__main__":
         raise ValueError(f'Command failed. Check parameter and try again. Instrument response msg: {resp}')
 
     print(resp.strip(' ok\r\n'))
+    
+    mono.instr.close()
